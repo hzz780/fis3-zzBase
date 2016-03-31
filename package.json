@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "fis3-postpackager-loader": "*",
-    "fis-parser-less": "*"
+    "fis-parser-less": "~0.1.3"
   },
   "author": "huangzongzhe",
   "license": "MIT",
