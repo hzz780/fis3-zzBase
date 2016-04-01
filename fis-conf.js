@@ -2,6 +2,8 @@
  * author huangzongzhe hzz780@qq.com
  * Richard Huang
  */
+
+// 按需打包
 fis.set('project.files', [
     'page/**',
     'lib/**',

@@ -1,5 +1,17 @@
-# fis3-zzBase
+fis-zzBase 基于fis3
+=======
+给大家一个简单的demo
 
-### 前端的拼接使用 现代浏览器的 link import
-### 为了更好的体验 fis 会识别并且在编译时拼接好
-### warning 路径错了是不会报错的！！！
+###功能
+1. 按需编译相关文件
+2. js，css,png压缩
+3. less编译
+4. 纯html link import的编译（因为浏览器对这支持不好，在fis编译中，获取到link rel="import" href="xxx.html?__inline" 时，直接include后生成新的html）
+5. debug 和 online模式
+
+####package.json
+fis所依赖的插件
+
+#### build.sh
+对fis操作进行了一次包装
+
